@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    title: 'Battleship',
-    description: 'A online battleship game built with Next.js',
+    title: 'Tic Tac Toe',
+    description: 'A simple Tic Tac Toe game',
 };
 
 export default function RootLayout({

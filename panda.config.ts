@@ -28,7 +28,7 @@ export default defineConfig({
       tokens: {
         colors: {
           background: {
-            value: '#0A0A0B',
+            value: '#ffffff',
           },
           tile: {
             0: { value: '#121212' },
@@ -46,14 +46,25 @@ export default defineConfig({
             8: { value: '#0bae4a' },
             9: { value: '#00973c' },
           },
+          red: {
+            0: { value: "#ffe8e9" },
+            1: { value: "#ffd1d1" },
+            2: { value: "#fba0a0" },
+            3: { value: "#f76d6d" },
+            4: { value: "#f44141" },
+            5: { value: "#f22625" },
+            6: { value: "#f21616" },
+            7: { value: "#d8070b" },
+            8: { value: "#c10007" },
+            9: { value: "#a90003" }
+          },
           text: {
-            0: { value: '#E9ECEF' },
-            1: { value: '#A1A1AA' },
-            2: { value: '#898989' },
-            3: { value: '#7A7A7A' },
+            0: { value: '#050505' },
+            1: { value: '#05050580' },
+            2: { value: '#05050560' },
           },
           border: {
-            value: '#ffffff10',
+            value: '#00000020',
           },
           dimmed: {
             green: {
@@ -67,7 +78,19 @@ export default defineConfig({
               7: { value: '#1bc45520' },
               8: { value: '#0bae4a20' },
               9: { value: '#00973c20' },
-            }
+            },
+            red: {
+              0: { value: "#ffe8e920" },
+              1: { value: "#ffd1d120" },
+              2: { value: "#fba0a020" },
+              3: { value: "#f76d6d20" },
+              4: { value: "#f4414120" },
+              5: { value: "#f2262520" },
+              6: { value: "#f2161620" },
+              7: { value: "#d8070b20" },
+              8: { value: "#c1000720" },
+              9: { value: "#a9000320" }
+            },
           }
         }
       },

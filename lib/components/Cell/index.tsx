@@ -25,4 +25,8 @@ const cellStyles = css({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    cursor: 'pointer',
+    '&:hover': {
+        backgroundColor: 'tile.0',
+    }
 });

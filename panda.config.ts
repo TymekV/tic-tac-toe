@@ -31,7 +31,7 @@ export default defineConfig({
             value: '#ffffff',
           },
           tile: {
-            0: { value: '#121212' },
+            0: { value: '#f7f7f7' },
             1: { value: '#242424' },
           },
           green: {

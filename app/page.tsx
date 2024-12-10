@@ -66,7 +66,7 @@ export default function Page() {
             <Container>
                 <Title size="lg">Tic Tac Toe</Title>
                 <Subtitle size="lg">{winState == null ? `It's Player ${currentPlayer == 'o' ? 1 : 2}'s turn!` : winState == 'draw' ? 'It\'s a draw!' : `Player ${winState == 'o' ? 1 : 2} won!`}</Subtitle>
-                <Map data={mapData} onCellClick={handleClick} />
+                <Map data={mapData} onCellClick={winState != null ? () => { } : handleClick} />
             </Container>
         </div>
     )
